@@ -1,22 +1,20 @@
 # Lucas Brinks
-# 1/15/25
-# Dictionary starter
-my_dict = {'name': 'Lucas', 'age': 16}
+# 1/22/25
+# Dictionary
 
-print(my_dict)
+student_dict = {}
 
-my_dict['age'] =17
+student_dict['name'] = 'Lucas'
+student_dict['age'] = 18
+student_dict['grade'] = 'A'
 
-print(my_dict)
+student_dict['name'] = 'Lucas Brinks'
+student_dict['age'] = 16
 
-contacts = {
-    'Mother of mine': '231-735-3777',
-    'James Games': '231-384-7734',
-    'Father of mine': '231-649-1053',
-    'Sam': '231-132-3123',
-    'Jhon': '991-191-9911'
-}
+print(student_dict)
+print(student_dict['name'])
 
-contacts['Father of mine'] = '294-582-5839'
+student_dict['course'] = 'Web & Game Development'
+student_dict['grade'] = 'A+'
 
-print(contacts)
+print(student_dict)
